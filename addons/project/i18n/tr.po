@@ -41,7 +41,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-14 20:46+0000\n"
+"POT-Creation-Date: 2025-06-27 18:38+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Deniz Guvener_Odoo <degu@odoo.com>, 2025\n"
 "Language-Team: Turkish (https://app.transifex.com/odoo/teams/41243/tr/)\n"
@@ -139,7 +139,6 @@ msgstr "# Değerlendirmeler"
 #. module: project
 #. odoo-javascript
 #: code:addons/project/static/src/views/burndown_chart/burndown_chart_model.js:0
-#: model:ir.model.fields,field_description:project.field_project_milestone__task_count
 #: model:ir.model.fields,field_description:project.field_report_project_task_user__nbr
 msgid "# of Tasks"
 msgstr "# nın Görevleri"
@@ -1030,6 +1029,8 @@ msgid ""
 "Attach all documents or links to the task directly, to have all research "
 "information centralized."
 msgstr ""
+"Tüm araştırma bilgilerini tek bir yerde toplamak için tüm belgeleri veya "
+"bağlantıları doğrudan göreve ekleyin."
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_milestone__message_attachment_count
@@ -3234,6 +3235,9 @@ msgid ""
 "attached, even if they did not reply to it. If set, this will disable the "
 "creation of new records completely."
 msgstr ""
+"Gelen tüm mesajların, yanıt verilmemiş olsa bile ekleneceği bir iş "
+"parçacığının (kayıt) isteğe bağlı kimliği. Ayarlandığı durumlarda yeni "
+"kayıtların oluşturulması tamamen devre dışı bırakılır."
 
 #. module: project
 #. odoo-javascript
@@ -5272,6 +5276,14 @@ msgid ""
 "\n"
 "        Make sure to use the right format and order e.g. Improve the configuration screen 5h #feature #v16 @Mitchell !"
 msgstr ""
+"Yeni görevler oluşturmak için başlıkta bu anahtar kelimeleri kullanın:\n"
+"\n"
+"        30s Göreve 30 saat ayırın \n"
+"        #etiketler Görev üzerinde etiketler oluşturun\n"
+"        @kullanıcı Görevi bir kullanıcıya atayın\n"
+"        ! Görevi yüksek önem derecesine sahip olarak ayarlayın\n"
+"\n"
+"        Doğru formatı ve sırayı kullandığınızdan emin olun örn. Yapılandırma ekranını iyileştirin 5s #özellik #v16 @Mitchell !"
 
 #. module: project
 #: model:res.groups,name:project.group_project_user
@@ -5401,6 +5413,7 @@ msgid ""
 "Would you like to unarchive all of the projects contained in these stages as"
 " well?"
 msgstr ""
+"Bu aşamalarda bulunan tüm projeleri de arşivden çıkarmak ister misiniz?"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_project_task_type_unarchive_wizard
@@ -5532,6 +5545,8 @@ msgid ""
 "You have full control and can revoke portal access anytime. Are you ready to"
 " proceed?"
 msgstr ""
+"Tam kontrol sizde ve portal erişimini istediğiniz zaman iptal edebilirsiniz."
+" Devam etmeye hazır mısınız?"
 
 #. module: project
 #. odoo-javascript
